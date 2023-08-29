@@ -18,6 +18,8 @@ const { hexToBytes } = require('ethereum-cryptography/utils');
 //Public key: 03ae415c8b31226b7f8f41d80ae65eecbfef2d2cb16717491fefde07212d964b2f
 //Address: 0xe2886b2e3c903594d38e425d214281b253efcf8b   
 
+//If we want to use the address instead of the public key, the use of etherjs will be useful
+
 app.use(cors());
 app.use(express.json());
 
